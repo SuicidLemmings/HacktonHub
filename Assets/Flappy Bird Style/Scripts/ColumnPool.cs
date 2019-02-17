@@ -4,7 +4,7 @@ using System.Collections;
 public class ColumnPool : MonoBehaviour 
 {
 	public GameObject columnPrefab;									//The column game object.
-	public float spawnRate = 3f;									//How quickly columns spawn.
+	private float spawnRate = 2f;									//How quickly columns spawn.
 	public float columnMin = -1f;									//Minimum y value of the column position.
 	public float columnMax = 3.5f;									//Maximum y value of the column position.
 

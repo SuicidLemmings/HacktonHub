@@ -13,9 +13,7 @@ public class GameControl : MonoBehaviour
     private int missileNumber = 10;
 	private int score = 0;						//The player's score.
 	public bool gameOver = false;				//Is the game over?
-	public float scrollSpeed = -1.5f;
     private float timeStillOver = 0f;
-
 
 	void Awake()
 	{
@@ -33,7 +31,7 @@ public class GameControl : MonoBehaviour
     void Update()
 	{
 		//If the game is over and the player has pressed some input...
-		if (gameOver && (Input.GetMouseButtonDown(0) || (timeStillOver > 0.5f && GameControl.instance.GetComponent<SerialInputs>().getValues(GameControl.instance.GetComponent<SerialInputs>().JUMP)))) 
+		if (gameOver && (Input.GetMouseButtonDown(0) || (timeStillOver > 0.2f && GameControl.instance.GetComponent<SerialInputs>().getValues(GameControl.instance.GetComponent<SerialInputs>().JUMP)))) 
 		{
 			//...reload the current scene.
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
