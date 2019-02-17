@@ -1,0 +1,2 @@
+D:\Bastien Lecussan\Documents\Epitech (Lourd)\Unity\Hack ton hub\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Bastien Lecussan\Documents\Epitech (Lourd)\Unity\Hack ton hub\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
